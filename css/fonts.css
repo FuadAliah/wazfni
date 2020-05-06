@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'HelveticaNeueLT Arabic 75';
+    src: url('../fonts/HelveticaNeueLTArabic-Bold.eot');
+    src: url('../fonts/HelveticaNeueLTArabic-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/HelveticaNeueLTArabic-Bold.woff2') format('woff2'),
+        url('../fonts/HelveticaNeueLTArabic-Bold.woff') format('woff'),
+        url('../fonts/HelveticaNeueLTArabic-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaNeueLT Arabic 55 Roman';
+    src: url('../fonts/HelveticaNeueLTArabic-Roman.eot');
+    src: url('../fonts/HelveticaNeueLTArabic-Roman.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/HelveticaNeueLTArabic-Roman.woff2') format('woff2'),
+        url('../fonts/HelveticaNeueLTArabic-Roman.woff') format('woff'),
+        url('../fonts/HelveticaNeueLTArabic-Roman.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaNeueLT Arabic 45';
+    src: url('../fonts/HelveticaNeueLTArabic-Light.eot');
+    src: url('../fonts/HelveticaNeueLTArabic-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/HelveticaNeueLTArabic-Light.woff2') format('woff2'),
+        url('../fonts/HelveticaNeueLTArabic-Light.woff') format('woff'),
+        url('../fonts/HelveticaNeueLTArabic-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+

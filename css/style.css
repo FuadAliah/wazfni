@@ -1,0 +1,138 @@
+@import url("./fonts.css");
+
+:root {
+    --lightBlue: #f1f0f4;
+    --darkBlue: #3b2466;
+    --darkGray: #1a1a1a;
+    --mainGreen: #4db748;
+    --borderColor: #cccbcb;
+    --placeHolder: #808080;
+    --optionalColor: #b3b2b3;
+    --Bold: "HelveticaNeueLT Arabic 75";
+    --Roman: "HelveticaNeueLT Arabic 55 Roman";
+}
+html {
+    direction: rtl;
+}
+
+body {
+    font-family: "HelveticaNeueLT Arabic 55 Roman";
+    text-align: right;
+}
+
+.bgLightBlue {
+    background: var(--lightBlue);
+}
+
+.coloDarkBlue {
+    color: var(--darkBlue);
+}
+
+h4 {
+    line-height: 1.5;
+}
+
+.title {
+    background: var(--lightBlue);
+    font-family: var(--Bold);
+}
+
+.pageContent {
+    margin-top: 30px;
+}
+
+.pageContent .bgLightBlue .active {
+    border-radius: 0;
+    background: var(--darkBlue);
+}
+
+.pageContent .bgLightBlue a {
+    color: var(--darkBlue);
+    font-family: var(--Bold);
+}
+
+.btn-green {
+    background: var(--mainGreen);
+}
+
+/* Form */
+.form-input {
+    height: 61px;
+}
+
+input {
+    color: var(--darkGray) !important;
+    font-family: var(--Bold);
+}
+
+::placeholder {
+    color: var(--placeHolder);
+    font-family: var(--Roman);
+}
+
+.form-file {
+    height: 150px;
+    width: 150px;
+}
+
+.custom-border {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 150px;
+    height: 150px;
+    border: 1px solid var(--borderColor);
+}
+
+.change {
+    width: 150px;
+}
+
+.change label {
+    font-family: var(--Roman);
+    color: var(--mainGreen);
+    text-decoration: underline;
+    cursor: pointer;
+    line-height: 34px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"] {
+    padding: 17px;
+    height: unset;
+    border-color: var(--borderColor);
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: transparent;
+    color: var(--darkGray) !important;
+    position: relative;
+}
+.selectInput i {
+    position: absolute;
+    top: 24px;
+    left: 30px;
+    pointer-events: none;
+}
+
+.textarea-label p {
+    color: var(--optionalColor);
+}
+
+.offset-right-1 {
+    margin-right: 8.33333333%;
+}
+
+form label {
+    color: var(--darkBlue);
+    font-family: var(--Bold);
+    line-height: 48px;
+}
+
+form button {
+    height: 61px;
+    font-size: 18px !important;
+}
