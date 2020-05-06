@@ -8,6 +8,7 @@
     --borderColor: #cccbcb;
     --placeHolder: #808080;
     --optionalColor: #b3b2b3;
+    --red: #eb2027;
     --Bold: "HelveticaNeueLT Arabic 75";
     --Roman: "HelveticaNeueLT Arabic 55 Roman";
 }
@@ -135,4 +136,144 @@ form label {
 form button {
     height: 61px;
     font-size: 18px !important;
+}
+
+/* JOB-TAB */
+
+.job-tab .custom-nav {
+    border-bottom: 1px solid var(--mainGreen);
+    margin-bottom: 60px;
+}
+
+.job-tab .custom-nav li {
+    width: 33.33%;
+    color: var(--darkGray);
+}
+.job-tab .custom-nav li a {
+    text-align: center;
+    color: var(--darkGray);
+    font-size: 20px;
+    line-height: 60px;
+    padding: 0;
+    padding-bottom: 10px;
+}
+.job-tab .custom-nav li a.active {
+    font-family: var(--Bold);
+    background: transparent;
+    color: var(--darkGray);
+    font-size: 24px;
+    border-bottom: 5px solid var(--mainGreen);
+    border-radius: 0;
+    padding: 0;
+    padding-bottom: 10px;
+}
+.job-content {
+    width: 90%;
+    flex-wrap: wrap;
+}
+.job-content .parent {
+    flex-wrap: wrap;
+}
+
+.job-content .custom-card {
+    flex-direction: row;
+    width: 48%;
+    color: var(--darkGray);
+    border-color: var(--borderColor);
+}
+
+.job-content .custom-card .head-card {
+    height: 70px;
+    border-bottom: 1px solid var(--borderColor);
+}
+
+.job-content .custom-card .head-card .silver-ads,
+.job-content .custom-card .head-card .status {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 13px;
+    width: 120px;
+    height: 24px;
+}
+
+.job-content .custom-card .head-card .status {
+    width: 130px;
+    top: 24px;
+}
+
+.job-content .custom-card .head-card .status .tag {
+    background: var(--lightBlue);
+    border-radius: 12px;
+    font-family: var(--Bold);
+    color: var(--darkBlue);
+}
+
+.job-content .custom-card .head-card .silver-ads img {
+    position: absolute;
+    left: -10px;
+    top: -4px;
+}
+
+.job-content .custom-card .head-card .silver-ads .tag {
+    width: 120px;
+    height: 24px;
+    position: absolute;
+    border-radius: 12px;
+    background: linear-gradient(90deg, rgba(43, 92, 169, 1) 0%, rgba(46, 157, 190, 1) 46%, rgba(48, 72, 157, 1) 80%);
+}
+
+.job-content .custom-card .job-info {
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--borderColor);
+}
+
+.job-content .custom-card .job-info .job-title {
+    font-size: 16px;
+    font-family: var(--Bold);
+}
+
+.job-content .custom-card .job-info .employer {
+    font-size: 14px;
+    font-family: var(--Roman);
+}
+
+.job-content .custom-card .job-info .location i {
+    font-size: 1.3rem;
+    line-height: 27px;
+}
+
+.job-content .custom-card .job-info .location span {
+    font-size: 12px;
+    line-height: 27px;
+    vertical-align: bottom;
+}
+
+.footer-card {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+}
+
+.footer-card .date {
+    font-size: 12px;
+    line-height: 26px;
+}
+
+.footer-card .card-links {
+    font-size: 12px;
+    line-height: 26px;
+    width: 180px;
+}
+
+.footer-card .stop {
+    color: var(--mainGreen);
+}
+
+.footer-card .remove {
+    color: var(--red);
 }

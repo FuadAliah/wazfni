@@ -33,7 +33,7 @@
                 </div>
                 <div class="col-8 offset-right-1">
                     <div class="tab-content" id="v-pills-tabContent">
-                        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
+                        <div class="tab-pane fade show active enterprise-tab" id="v-pills-home" role="tabpanel"
                             aria-labelledby="v-pills-home-tab">
                             <form>
                                 <div class="form-group mb-5 row">
@@ -107,8 +107,345 @@
                                 </div>
                             </form>
                         </div>
-                        <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
-                            aria-labelledby="v-pills-profile-tab">2</div>
+                        <div class="tab-pane fade job-tab" id="v-pills-profile" role="tabpanel"
+                            aria-labelledby="v-pills-profile-tab">
+                            <ul class="nav nav-pills px-0 custom-nav" id="pills-tab" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home"
+                                        role="tab" aria-controls="pills-home" aria-selected="true">الحالية</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile"
+                                        role="tab" aria-controls="pills-profile" aria-selected="false">الموقفة</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact"
+                                        role="tab" aria-controls="pills-contact" aria-selected="false">المحذوفة</a>
+                                </li>
+                            </ul>
+                            <div class="tab-content" id="pills-tabContent">
+                                <div class="tab-pane fade show active job-content" id="pills-home" role="tabpanel"
+                                    aria-labelledby="pills-home-tab">
+                                    <div class="parent d-flex justify-content-between">
+                                        <div class="card custom-card mb-4">
+                                            <div class="card-body px-3 pt-3 pb-0">
+                                                <div
+                                                    class="head-card d-flex align-items-center justify-content-between">
+                                                    <img src="./imgs/logo.svg" height="18" alt="">
+                                                    <div class="silver-ads">
+                                                        <span class="tag text-white px-3">إعلان فضي</span>
+                                                        <img src="./imgs/silverAds-logo.svg" height="34" alt="">
+                                                    </div>
+                                                </div>
+                                                <div class="job-info py-2">
+                                                    <div class="titles">
+                                                        <h5 class="card-title job-title">مدخل بيانات</h5>
+                                                        <h6 class="card-subtitle employer mb-2">موقع وظفني</h6>
+                                                    </div>
+                                                    <div class="location">
+                                                        <i class="las la-map-marker-alt"></i>
+                                                        <span class="location-name">الأردن - عمان</span>
+                                                    </div>
+                                                </div>
+                                                <div class="footer-card">
+                                                    <span class="date">قبل اسبوع</span>
+                                                    <div class="card-links d-flex justify-content-between">
+                                                        <a href="#"
+                                                            class="card-link m-0 px-4 update text-white btn-green rounded">تعديل</a>
+                                                        <a href="#" class="card-link m-0 stop">إيقاف</a>
+                                                        <a href="#" class="card-link m-0 remove">حذف</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card custom-card mb-4">
+                                            <div class="card-body px-3 pt-3 pb-0">
+                                                <div
+                                                    class="head-card d-flex align-items-center justify-content-between">
+                                                    <img src="./imgs/logo.svg" height="18" alt="">
+                                                    <div class="status">
+                                                        <span class="tag px-3">في انتظار الموافقة</span>
+                                                    </div>
+                                                </div>
+                                                <div class="job-info py-2">
+                                                    <div class="titles">
+                                                        <h5 class="card-title job-title">مدخل بيانات</h5>
+                                                        <h6 class="card-subtitle employer mb-2">موقع وظفني</h6>
+                                                    </div>
+                                                    <div class="location">
+                                                        <i class="las la-map-marker-alt"></i>
+                                                        <span class="location-name">الأردن - عمان</span>
+                                                    </div>
+                                                </div>
+                                                <div class="footer-card">
+                                                    <span class="date">قبل اسبوع</span>
+                                                    <div class="card-links d-flex justify-content-between">
+                                                        <a href="#"
+                                                            class="card-link m-0 px-4 update text-white btn-green rounded">تعديل</a>
+                                                        <a href="#" class="card-link m-0 stop">إيقاف</a>
+                                                        <a href="#" class="card-link m-0 remove">حذف</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card custom-card mb-4">
+                                            <div class="card-body px-3 pt-3 pb-0">
+                                                <div
+                                                    class="head-card d-flex align-items-center justify-content-between">
+                                                    <img src="./imgs/logo.svg" height="18" alt="">
+                                                </div>
+                                                <div class="job-info py-2">
+                                                    <div class="titles">
+                                                        <h5 class="card-title job-title">مدخل بيانات</h5>
+                                                        <h6 class="card-subtitle employer mb-2">موقع وظفني</h6>
+                                                    </div>
+                                                    <div class="location">
+                                                        <i class="las la-map-marker-alt"></i>
+                                                        <span class="location-name">الأردن - عمان</span>
+                                                    </div>
+                                                </div>
+                                                <div class="footer-card">
+                                                    <span class="date">قبل اسبوع</span>
+                                                    <div class="card-links d-flex justify-content-between">
+                                                        <a href="#"
+                                                            class="card-link m-0 px-4 update text-white btn-green rounded">تعديل</a>
+                                                        <a href="#" class="card-link m-0 stop">إيقاف</a>
+                                                        <a href="#" class="card-link m-0 remove">حذف</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card custom-card mb-4">
+                                            <div class="card-body px-3 pt-3 pb-0">
+                                                <div
+                                                    class="head-card d-flex align-items-center justify-content-between">
+                                                    <img src="./imgs/logo.svg" height="18" alt="">
+                                                </div>
+                                                <div class="job-info py-2">
+                                                    <div class="titles">
+                                                        <h5 class="card-title job-title">مدخل بيانات</h5>
+                                                        <h6 class="card-subtitle employer mb-2">موقع وظفني</h6>
+                                                    </div>
+                                                    <div class="location">
+                                                        <i class="las la-map-marker-alt"></i>
+                                                        <span class="location-name">الأردن - عمان</span>
+                                                    </div>
+                                                </div>
+                                                <div class="footer-card">
+                                                    <span class="date">قبل اسبوع</span>
+                                                    <div class="card-links d-flex justify-content-between">
+                                                        <a href="#"
+                                                            class="card-link m-0 px-4 update text-white btn-green rounded">تعديل</a>
+                                                        <a href="#" class="card-link m-0 stop">إيقاف</a>
+                                                        <a href="#" class="card-link m-0 remove">حذف</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card custom-card mb-4">
+                                            <div class="card-body px-3 pt-3 pb-0">
+                                                <div
+                                                    class="head-card d-flex align-items-center justify-content-between">
+                                                    <img src="./imgs/logo.svg" height="18" alt="">
+                                                </div>
+                                                <div class="job-info py-2">
+                                                    <div class="titles">
+                                                        <h5 class="card-title job-title">مدخل بيانات</h5>
+                                                        <h6 class="card-subtitle employer mb-2">موقع وظفني</h6>
+                                                    </div>
+                                                    <div class="location">
+                                                        <i class="las la-map-marker-alt"></i>
+                                                        <span class="location-name">الأردن - عمان</span>
+                                                    </div>
+                                                </div>
+                                                <div class="footer-card">
+                                                    <span class="date">قبل اسبوع</span>
+                                                    <div class="card-links d-flex justify-content-between">
+                                                        <a href="#"
+                                                            class="card-link m-0 px-4 update text-white btn-green rounded">تعديل</a>
+                                                        <a href="#" class="card-link m-0 stop">إيقاف</a>
+                                                        <a href="#" class="card-link m-0 remove">حذف</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="tab-pane fade job-content" id="pills-profile" role="tabpanel"
+                                    aria-labelledby="pills-profile-tab">
+                                    <div class="parent d-flex justify-content-between">
+                                        <div class="card custom-card mb-4">
+                                            <div class="card-body px-3 pt-3 pb-0">
+                                                <div
+                                                    class="head-card d-flex align-items-center justify-content-between">
+                                                    <img src="./imgs/logo.svg" height="18" alt="">
+                                                </div>
+                                                <div class="job-info py-2">
+                                                    <div class="titles">
+                                                        <h5 class="card-title job-title">مدخل بيانات</h5>
+                                                        <h6 class="card-subtitle employer mb-2">موقع وظفني</h6>
+                                                    </div>
+                                                    <div class="location">
+                                                        <i class="las la-map-marker-alt"></i>
+                                                        <span class="location-name">الأردن - عمان</span>
+                                                    </div>
+                                                </div>
+                                                <div class="footer-card">
+                                                    <span class="date">قبل اسبوع</span>
+                                                    <div class="card-links d-flex justify-content-between">
+                                                        <a href="#"
+                                                            class="card-link m-0 px-4 update text-white btn-green rounded">تعديل</a>
+                                                        <a href="#" class="card-link m-0 stop">إيقاف</a>
+                                                        <a href="#" class="card-link m-0 remove">حذف</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card custom-card mb-4">
+                                            <div class="card-body px-3 pt-3 pb-0">
+                                                <div
+                                                    class="head-card d-flex align-items-center justify-content-between">
+                                                    <img src="./imgs/logo.svg" height="18" alt="">
+                                                </div>
+                                                <div class="job-info py-2">
+                                                    <div class="titles">
+                                                        <h5 class="card-title job-title">مدخل بيانات</h5>
+                                                        <h6 class="card-subtitle employer mb-2">موقع وظفني</h6>
+                                                    </div>
+                                                    <div class="location">
+                                                        <i class="las la-map-marker-alt"></i>
+                                                        <span class="location-name">الأردن - عمان</span>
+                                                    </div>
+                                                </div>
+                                                <div class="footer-card">
+                                                    <span class="date">قبل اسبوع</span>
+                                                    <div class="card-links d-flex justify-content-between">
+                                                        <a href="#"
+                                                            class="card-link m-0 px-4 update text-white btn-green rounded">تعديل</a>
+                                                        <a href="#" class="card-link m-0 stop">إيقاف</a>
+                                                        <a href="#" class="card-link m-0 remove">حذف</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card custom-card mb-4">
+                                            <div class="card-body px-3 pt-3 pb-0">
+                                                <div
+                                                    class="head-card d-flex align-items-center justify-content-between">
+                                                    <img src="./imgs/logo.svg" height="18" alt="">
+                                                </div>
+                                                <div class="job-info py-2">
+                                                    <div class="titles">
+                                                        <h5 class="card-title job-title">مدخل بيانات</h5>
+                                                        <h6 class="card-subtitle employer mb-2">موقع وظفني</h6>
+                                                    </div>
+                                                    <div class="location">
+                                                        <i class="las la-map-marker-alt"></i>
+                                                        <span class="location-name">الأردن - عمان</span>
+                                                    </div>
+                                                </div>
+                                                <div class="footer-card">
+                                                    <span class="date">قبل اسبوع</span>
+                                                    <div class="card-links d-flex justify-content-between">
+                                                        <a href="#"
+                                                            class="card-link m-0 px-4 update text-white btn-green rounded">تعديل</a>
+                                                        <a href="#" class="card-link m-0 stop">إيقاف</a>
+                                                        <a href="#" class="card-link m-0 remove">حذف</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade job-content" id="pills-contact" role="tabpanel"
+                                    aria-labelledby="pills-contact-tab">
+                                    <div class="parent d-flex justify-content-between">
+                                        <div class="card custom-card mb-4">
+                                            <div class="card-body px-3 pt-3 pb-0">
+                                                <div
+                                                    class="head-card d-flex align-items-center justify-content-between">
+                                                    <img src="./imgs/logo.svg" height="18" alt="">
+                                                </div>
+                                                <div class="job-info py-2">
+                                                    <div class="titles">
+                                                        <h5 class="card-title job-title">مدخل بيانات</h5>
+                                                        <h6 class="card-subtitle employer mb-2">موقع وظفني</h6>
+                                                    </div>
+                                                    <div class="location">
+                                                        <i class="las la-map-marker-alt"></i>
+                                                        <span class="location-name">الأردن - عمان</span>
+                                                    </div>
+                                                </div>
+                                                <div class="footer-card">
+                                                    <span class="date">قبل اسبوع</span>
+                                                    <div class="card-links d-flex justify-content-between">
+                                                        <a href="#"
+                                                            class="card-link m-0 px-4 update text-white btn-green rounded">تعديل</a>
+                                                        <a href="#" class="card-link m-0 stop">إيقاف</a>
+                                                        <a href="#" class="card-link m-0 remove">حذف</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card custom-card mb-4">
+                                            <div class="card-body px-3 pt-3 pb-0">
+                                                <div
+                                                    class="head-card d-flex align-items-center justify-content-between">
+                                                    <img src="./imgs/logo.svg" height="18" alt="">
+                                                </div>
+                                                <div class="job-info py-2">
+                                                    <div class="titles">
+                                                        <h5 class="card-title job-title">مدخل بيانات</h5>
+                                                        <h6 class="card-subtitle employer mb-2">موقع وظفني</h6>
+                                                    </div>
+                                                    <div class="location">
+                                                        <i class="las la-map-marker-alt"></i>
+                                                        <span class="location-name">الأردن - عمان</span>
+                                                    </div>
+                                                </div>
+                                                <div class="footer-card">
+                                                    <span class="date">قبل اسبوع</span>
+                                                    <div class="card-links d-flex justify-content-between">
+                                                        <a href="#"
+                                                            class="card-link m-0 px-4 update text-white btn-green rounded">تعديل</a>
+                                                        <a href="#" class="card-link m-0 stop">إيقاف</a>
+                                                        <a href="#" class="card-link m-0 remove">حذف</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card custom-card mb-4">
+                                            <div class="card-body px-3 pt-3 pb-0">
+                                                <div
+                                                    class="head-card d-flex align-items-center justify-content-between">
+                                                    <img src="./imgs/logo.svg" height="18" alt="">
+                                                </div>
+                                                <div class="job-info py-2">
+                                                    <div class="titles">
+                                                        <h5 class="card-title job-title">مدخل بيانات</h5>
+                                                        <h6 class="card-subtitle employer mb-2">موقع وظفني</h6>
+                                                    </div>
+                                                    <div class="location">
+                                                        <i class="las la-map-marker-alt"></i>
+                                                        <span class="location-name">الأردن - عمان</span>
+                                                    </div>
+                                                </div>
+                                                <div class="footer-card">
+                                                    <span class="date">قبل اسبوع</span>
+                                                    <div class="card-links d-flex justify-content-between">
+                                                        <a href="#"
+                                                            class="card-link m-0 px-4 update text-white btn-green rounded">تعديل</a>
+                                                        <a href="#" class="card-link m-0 stop">إيقاف</a>
+                                                        <a href="#" class="card-link m-0 remove">حذف</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
                             aria-labelledby="v-pills-messages-tab">3</div>
                     </div>
