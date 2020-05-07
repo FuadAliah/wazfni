@@ -109,7 +109,7 @@
                         </div>
                         <div class="tab-pane fade job-tab" id="v-pills-profile" role="tabpanel"
                             aria-labelledby="v-pills-profile-tab">
-                            <ul class="nav nav-pills px-0 custom-nav" id="pills-tab" role="tablist">
+                            <ul class="nav nav-pills px-0 custom-nav mb-5" id="pills-tab" role="tablist">
                                 <li class="nav-item">
                                     <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home"
                                         role="tab" aria-controls="pills-home" aria-selected="true">الحالية</a>
@@ -446,8 +446,195 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
-                            aria-labelledby="v-pills-messages-tab">3</div>
+                        <div class="tab-pane fade ad-tab" id="v-pills-messages" role="tabpanel"
+                            aria-labelledby="v-pills-messages-tab">
+                            <div class="steps">
+                                <form>
+                                    <div class="step-title text-white py-2 px-3 mb-5">
+                                        <span>1 معلومات الوظيفة</span>
+                                    </div>
+                                    <div class="form-group mb-5 row">
+                                        <label for="exampleFormControlFile4" class="col-sm-3">
+                                            المسمى الوظيفي*</label>
+                                        <div class="col-sm-8 selectInput">
+                                            <select class="form-control form-input" id="exampleFormControlFile4">
+                                                <option>الرجاء تحديد المسمى الوظيفي</option>
+                                            </select>
+                                            <i class="las la-angle-down"></i>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-5 row">
+                                        <label for="exampleFormControlFile5" class="col-sm-3">
+                                            القسم*</label>
+                                        <div class="col-sm-8 selectInput">
+                                            <select class="form-control form-input" id="exampleFormControlFile5">
+                                                <option>الرجاء اختيار القسم</option>
+                                            </select>
+                                            <i class="las la-angle-down"></i>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-5 row">
+                                        <label for="exampleFormControlFile6" class="col-sm-3">
+                                            الوظيفة*</label>
+                                        <div class="col-sm-8 selectInput">
+                                            <select class="form-control form-input" id="exampleFormControlFile6">
+                                                <option>للكل</option>
+                                            </select>
+                                            <i class="las la-angle-down"></i>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-5 row">
+                                        <label for="exampleFormControlFile7" class="col-sm-3">
+                                            المؤهل المطلوب</label>
+                                        <div class="col-sm-8 selectInput">
+                                            <select class="form-control form-input" id="exampleFormControlFile7">
+                                                <option>بكالوريس</option>
+                                            </select>
+                                            <i class="las la-angle-down"></i>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-5 row">
+                                        <label for="exampleFormControlFile8" class="col-sm-3">
+                                            سنوات الخبرة</label>
+                                        <div class="col-sm-8 selectInput">
+                                            <select class="form-control form-input" id="exampleFormControlFile8">
+                                                <option>من 0 - 3 سنوات</option>
+                                            </select>
+                                            <i class="las la-angle-down"></i>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-5 row">
+                                        <label for="exampleFormControlFile9" class="col-sm-3">
+                                            مكان العمل</label>
+                                        <div class="col-sm-8 selectInput">
+                                            <select class="form-control form-input" id="exampleFormControlFile9">
+                                                <option>الرجاء تحديد مكان العمل</option>
+                                            </select>
+                                            <i class="las la-angle-down"></i>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-5 row">
+                                        <div class="optional col-sm-3">
+                                            <label for="exampleFormControlFile10">
+                                                الراتب</label>
+                                            <p class="m-0">(إختياري)</p>
+                                        </div>
+                                        <div class="col-sm-8 selectInput">
+                                            <select class="form-control form-input" id="exampleFormControlFile10">
+                                                <option>تحديد المبلغ المقترح</option>
+                                            </select>
+                                            <i class="las la-angle-down"></i>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-5 row">
+                                        <div class="d-flex flex-column col-sm-3">
+                                            <label for="exampleFormControlTextarea1" class="m-0">الوصف
+                                                الوظيفي</label>
+                                        </div>
+                                        <div class="col-sm-8">
+                                            <textarea class="form-control" placeholder="اكتب الوصف الوظيفي للوظيفة"
+                                                id="exampleFormControlTextarea1" rows="8"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-5 row">
+                                        <label for="exampleFormControlFile11" class="col-sm-3">
+                                            اخر موعد للتقديم</label>
+                                        <div class="col-sm-8 d-flex justify-content-between">
+                                            <div class="selectInput date">
+                                                <select class="form-control form-input" id="exampleFormControlFile11">
+                                                    <option>اليوم</option>
+                                                </select>
+                                                <i class="las la-angle-down"></i>
+                                            </div>
+                                            <div class="selectInput date">
+                                                <select class="form-control form-input" id="exampleFormControlFile11">
+                                                    <option>الشهر</option>
+                                                </select>
+                                                <i class="las la-angle-down"></i>
+                                            </div>
+                                            <div class="selectInput date">
+                                                <select class="form-control form-input" id="exampleFormControlFile11">
+                                                    <option>العام</option>
+                                                </select>
+                                                <i class="las la-angle-down"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="step-title text-white py-2 px-3 mb-5">
+                                        <span>2 معلومات الاتصال</span>
+                                    </div>
+                                    <div class="form-group mb-5 row">
+                                        <label for="inputNumber" class="col-sm-3">رقم الهاتف</label>
+                                        <div class="col-sm-8">
+                                            <input type="email" class="form-control form-input" id="inputNumber"
+                                                placeholder="رقم الهاتف">
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-3 row">
+                                        <label for="inputEmail" class="col-sm-3">البريد الإلكتروني</label>
+                                        <div class="col-sm-8">
+                                            <input type="email" class="form-control form-input" id="inputEmail"
+                                                placeholder="البريد الإلكتروني">
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-3 row">
+                                        <label class="col-sm-3"></label>
+                                        <div class="inputCheck col-sm-8 form-group form-check d-flex align-items-start">
+                                            <label class="checkLabel">التقديم مباشرة للباحثين عن العمل الذين قاموا بعمل
+                                                سيرة
+                                                ذاتية على وظفني
+                                                <input type="checkbox" checked="checked">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="step-title text-white py-2 px-3 mb-5">
+                                        <span>3 مييز اعلانك</span>
+                                    </div>
+                                    <div class="form-group mb-5 row">
+                                        <label for="exampleFormControlFile12" class="col-sm-3">
+                                            نوع الاعلان</label>
+                                        <div class="col-sm-8 selectInput">
+                                            <select class="form-control form-input" id="exampleFormControlFile12">
+                                                <option>فضي</option>
+                                            </select>
+                                            <i class="las la-angle-down"></i>
+                                        </div>
+                                    </div>
+                                    <div class="radio-label form-group mb-5 row">
+                                        <label class="m-0 col-sm-12">
+                                            - هل ترغب في إظهار معلومات الجهة المعلنة للوظيفة</label>
+                                        <div class="col-sm-12 p-0 selectInput">
+                                            <div class="col-sm-5 p-0 m-0 form-check form-check-inline">
+                                                <label class="radioLabel form-check-label mr-2">نعم, أظهر
+                                                    المعلومات
+                                                    <input class="form-check-input" type="radio"
+                                                        name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                                    <span class="checkmark-radio"></span>
+                                                </label>
+                                            </div>
+                                            <div class="col-sm-5 p-0 m-0 form-check form-check-inline">
+                                                <label class="radioLabel form-check-label mr-2">لا, لا اريد عرض
+                                                    المعلومات
+                                                    <input class="form-check-input" type="radio"
+                                                        name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                                    <span class="checkmark-radio"></span>
+                                                </label>
+                                            </div>
+
+
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-5 row">
+                                        <label for="" class="col-sm-3"></label>
+                                        <div class="col-sm-8">
+                                            <button type="submit" class="btn btn-green text-white col-sm-12">حفظ ونشر
+                                                الاعلان</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
