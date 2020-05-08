@@ -816,7 +816,7 @@ form button {
     margin-bottom: 20px;
 }
 
-.jobs .jobs-result .custom-card p{
+.jobs .jobs-result .custom-card p {
     position: absolute;
     top: 0;
     left: 10px;
@@ -894,4 +894,178 @@ form button {
     background: var(--mainGreen);
     color: #fff;
     border-radius: 50%;
+}
+
+/* ARTICLES */
+
+.articles {
+    margin-top: 90px;
+}
+
+.articles .articles-tab .custom-nav {
+    border-bottom: 1px solid var(--mainGreen);
+}
+
+.articles .articles-tab .custom-nav li {
+    width: 33.33%;
+    color: var(--darkBlue);
+}
+
+.articles .articles-tab .custom-nav li a {
+    text-align: center;
+    color: var(--darkBlue);
+    font-size: 20px;
+    line-height: 60px;
+    padding: 0;
+    padding-bottom: 10px;
+}
+
+.articles .articles-tab .custom-nav li a.active {
+    font-family: var(--Bold);
+    background: transparent;
+    color: var(--darkBlue);
+    font-size: 24px;
+    border-bottom: 5px solid var(--mainGreen);
+    border-radius: 0;
+    padding: 0;
+    padding-bottom: 10px;
+}
+
+.articles .articles-content .article-item {
+    margin-bottom: 50px;
+}
+
+.articles .articles-content .article-item .article-conten {
+    height: 175px;
+    margin-top: auto;
+    margin-right: 30px;
+}
+
+.articles .articles-content .article-item .article-conten .article-title {
+    font-size: 24px;
+    color: var(--darkGray);
+    font-family: var(--Bold);
+}
+
+.articles .articles-content .article-item .article-conten .read-more {
+    background: var(--mainGreen);
+    width: fit-content;
+    padding: 10px 57px;
+}
+
+.articles .pagination {
+    width: 38%;
+    margin: 0 auto;
+    margin-top: 60px;
+    height: 35px;
+    align-items: center;
+}
+
+.articles .pagination .prev,
+.articles .pagination .next {
+    color: var(--mainGreen);
+}
+
+.articles .pagination .prev i,
+.articles .pagination .next i {
+    font-size: 24px;
+}
+
+.articles .pagination .page-numbers a {
+    width: 60%;
+}
+
+.articles .pagination .page-numbers a {
+    font-family: var(--Bold);
+    color: var(--darkBlue);
+    width: 35px;
+    text-align: center;
+    height: 35px;
+    line-height: 30px;
+}
+
+.articles .pagination .page-numbers a.active {
+    background: var(--mainGreen);
+    color: #fff;
+    border-radius: 50%;
+}
+
+/* ARTILCE DETAILED */
+
+.article-content {
+    margin-top: 90px;
+}
+
+.article-content .content-title {
+    font-size: 24px;
+    font-family: var(--Bold);
+}
+
+.article-content img {
+    margin: 0px 0px 20px 40px;
+}
+
+/* ABOUT */
+
+.about-content {
+    margin-top: 90px;
+    width: 80%;
+}
+
+.about .about-content .section h4 {
+    font-size: 24px;
+    color: var(--darkBlue);
+    font-family: var(--Bold);
+}
+
+/* CONTACTS */
+
+.contacts {
+    margin: 90px 0;
+}
+
+.contacts .address .contact,
+.contacts .address .message {
+    width: 47%;
+}
+
+.contacts .address .contact .contact-us {
+    color: var(--darkGray);
+    font-size: 14px;
+    height: 140px;
+}
+
+.contacts .address .contact .contacts-map {
+    height: 350px;
+    margin-top: 50px;
+}
+
+.contacts .address .contact .contact-us a {
+    color: var(--darkGray);
+    font-size: 14px;
+}
+
+.contacts .address .contact .contact-us i {
+    color: var(--mainGreen);
+    font-size: 24px;
+}
+
+.contacts .address .contact .contact-us .location i {
+    line-height: 44px;
+}
+
+.contacts .address .message h4 {
+    font-size: 24px;
+    color: var(--darkBlue);
+    font-family: var(--Bold);
+}
+
+.contacts .address .message label {
+    color: var(--darkGray);
+    font-size: 14px;
+}
+
+.contacts .address .message button {
+    margin-right: auto;
+    padding: 0 70px;
 }
