@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Document</title>
+    <link rel="stylesheet" href="./node_modules/line-awesome/dist/line-awesome/css/line-awesome.min.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="profile">
+        <div class="container">
+
+            <div class="title my-5">
+                <h4 class="coloDarkBlue px-4 py-1">ملفي الشخصي</h4>
+            </div>
+
+            <div class="row">
+                <div class="col-3">
+                    <div class="nav aside-nav flex-column nav-pills bgLightBlue" id="v-pills-tab" role="tablist"
+                        aria-orientation="vertical">
+                        <a class="nav-link py-4 active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home"
+                            role="tab" aria-controls="v-pills-home" aria-selected="true">ممعلوماتي</a>
+                        <a class="nav-link py-4" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile"
+                            role="tab" aria-controls="v-pills-profile" aria-selected="false">السيرة الذاتية</a>
+
+                    </div>
+                </div>
+                <div class="col-8 offset-right-1">
+                    <div class="tab-content" id="v-pills-tabContent">
+                        <div class="tab-pane fade show active information-section" id="v-pills-home" role="tabpanel"
+                            aria-labelledby="v-pills-home-tab">
+                            <div class="user-information d-flex flex-column">
+                                <div class="info mb-5">
+                                    <h4>محمد توفيق رامي السيد</h4>
+                                    <p class="m-0">مهندس مدني</p>
+                                </div>
+                                <div class="info mb-5">
+                                    <div class="mb-3">
+                                        <span class="key">الجنس:</span>
+                                        <span class="value">ذكر</span>
+                                    </div>
+                                    <div class="mb-3">
+                                        <span class="key">الجنسية:</span>
+                                        <span class="value">أردني</span>
+                                    </div>
+                                    <div class="mb-3">
+                                        <span class="key">رقم الهاتف:</span>
+                                        <span class="value">+962 70 000 00 00</span>
+                                    </div>
+                                    <div class="mb-3">
+                                        <span class="key">البريد الالكتروني:</span>
+                                        <span class="value"><a href="#">rami.rayes@live.com</a></span>
+                                    </div>
+                                    <div class="mb-3">
+                                        <span class="key">سنوات الخبرة:</span>
+                                        <span class="value">أكثر من 5 سنوات</span>
+                                    </div>
+                                    <div class="mb-3">
+                                        <span class="key">المستوى التعليمي:</span>
+                                        <span class="value">ماجستير</span>
+                                    </div>
+                                </div>
+                                <p class="mb-5">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا
+                                    النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص
+                                    الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
+                                    إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات
+                                    كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي
+                                    المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة
+                                    حقيقية لتصميم الموقع.
+                                </p>
+                                <div
+                                    class="uploaded d-flex justify-content-between rounded border align-items-center p-1 px-3">
+                                    <span class="text">اسم الملف الذي تم تحميله</span>
+                                    <div class="left d-flex justify-content-between align-items-center">
+                                        <a href="#" class="view">عرض</a>
+                                        <img src="./imgs/pdf.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade resume-section" id="v-pills-profile" role="tabpanel"
+                            aria-labelledby="v-pills-profile-tab">
+
+                            <form>
+                                <div class="form-group mb-5 row">
+                                    <label for="inputName" class="col-sm-3">الأسم*</label>
+                                    <div class="col-sm-8">
+                                        <input type="text" class="form-control form-input" id="inputName"
+                                            placeholder="الإسم">
+                                    </div>
+                                </div>
+                                <div class="form-group mb-5 row">
+                                    <label for="inlineRadio1" class="col-sm-3">الجنس*</label>
+                                    <div class="col-sm-8 selectInput">
+                                        <div class="col-sm-5 p-0 m-0 form-check form-check-inline">
+                                            <label class="radioLabel form-check-label">ذكر
+                                                <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                                    id="inlineRadio1" value="option1">
+                                                <span class="checkmark-radio"></span>
+                                            </label>
+                                        </div>
+                                        <div class="col-sm-5 p-0 m-0 form-check form-check-inline">
+                                            <label class="radioLabel form-check-label">أنثى
+                                                <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                                    id="inlineRadio2" value="option2">
+                                                <span class="checkmark-radio"></span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group mb-5 row">
+                                    <label for="exampleFormControlFile2" class="col-sm-3">
+                                        المسمى الوظيفي*:</label>
+                                    <div class="col-sm-8 selectInput">
+                                        <select class="form-control form-input" id="exampleFormControlFile2">
+                                            <option>الرجاء تحديد المسمى الوظيفي</option>
+                                        </select>
+                                        <i class="las la-angle-down"></i>
+                                    </div>
+                                </div>
+                                <div class="form-group mb-5 row">
+                                    <label for="exampleFormControlFile3" class="col-sm-3">
+                                        سنوات الخبرة</label>
+                                    <div class="col-sm-8 selectInput">
+                                        <select class="form-control form-input" id="exampleFormControlFile3">
+                                            <option>الرجاء اختيار عدد سنوات الخبرة</option>
+                                        </select>
+                                        <i class="las la-angle-down"></i>
+                                    </div>
+                                </div>
+                                <div class="form-group mb-5 row">
+                                    <label for="exampleFormControlFile4" class="col-sm-3">
+                                        الجنسية*</label>
+                                    <div class="col-sm-8 selectInput">
+                                        <select class="form-control form-input" id="exampleFormControlFile4">
+                                            <option>الرجاء اختيار الجنسية</option>
+                                        </select>
+                                        <i class="las la-angle-down"></i>
+                                    </div>
+                                </div>
+
+                                <div class="form-group mb-5 row">
+                                    <label for="inputNumber" class="col-sm-3">رقم الهاتف</label>
+                                    <div class="col-sm-8">
+                                        <input type="email" class="form-control form-input" id="inputNumber"
+                                            placeholder="رقم الهاتف">
+                                    </div>
+                                </div>
+                                <div class="form-group mb-5 row">
+                                    <label for="exampleFormControlFile5" class="col-sm-3">
+                                        المستوى التعليمي*</label>
+                                    <div class="col-sm-8 selectInput">
+                                        <select class="form-control form-input" id="exampleFormControlFile5">
+                                            <option>الرجاء اختيار المستوى التعليمي</option>
+                                        </select>
+                                        <i class="las la-angle-down"></i>
+                                    </div>
+                                </div>
+                                <div class="form-group mb-5 row">
+                                    <div class="textarea-label d-flex flex-column col-sm-3">
+                                        <label for="exampleFormControlTextarea1" class="m-0">نبذة عنك</label>
+                                        <p class="m-0">(إختياري)</p>
+                                    </div>
+                                    <div class="col-sm-8">
+                                        <textarea class="form-control" placeholder="عرف عن نفسك وعن مهاراتك"
+                                            id="exampleFormControlTextarea1" rows="8"></textarea>
+                                    </div>
+                                </div>
+                                <div class="form-group mb-5 row">
+                                    <div class="optional col-sm-3">
+                                        <label for="exampleFormControlFile10">
+                                            تحميل السيرة الذاتية</label>
+                                        <p class="m-0">(إختياري)</p>
+                                    </div>
+                                    <div class="col-sm-8">
+                                        <input type="email" class="form-control form-input" id="inputNumber"
+                                            placeholder="حمل سيرتك الذاتية">
+                                        <input type="file" class="form-control-file custom-file-input">
+                                        <i class="las la-upload"></i>
+                                    </div>
+                                </div>
+                                <div class="form-group mb-5 row">
+                                    <label for="" class="col-sm-3"></label>
+                                    <div class="col-sm-8">
+                                        <button type="submit" class="btn btn-green text-white col-sm-12">حفظ</button>
+                                    </div>
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

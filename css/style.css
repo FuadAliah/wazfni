@@ -1069,3 +1069,80 @@ form button {
     margin-right: auto;
     padding: 0 70px;
 }
+
+.profile {
+    margin: 90px 0;
+}
+
+.profile .aside-nav a {
+    font-size: 18px;
+    font-family: var(--Bold);
+    color: var(--darkBlue);
+}
+
+.profile .aside-nav a.active {
+    border-radius: 0;
+    background: var(--darkBlue);
+}
+
+.profile .information-section .user-information h4 {
+    font-size: 24px;
+    color: var(--darkBlue);
+    font-family: var(--Bold);
+}
+
+.profile .information-section .user-information p {
+    font-size: 16px;
+    color: var(--darkGray);
+}
+
+.profile .information-section .user-information .info,
+.profile .information-section .user-information .info a {
+    color: var(--darkBlue);
+}
+
+.profile .information-section .user-information .info .value {
+    font-family: var(--Bold);
+}
+
+.profile .information-section .user-information .uploaded {
+    width: 80%;
+}
+
+.profile .information-section .user-information .uploaded .text {
+    color: var(--darkGray);
+}
+
+.profile .information-section .user-information .uploaded .left {
+    width: 25%;
+}
+
+.profile .information-section .user-information .uploaded .left .view {
+    color: var(--darkBlue);
+    text-decoration: underline;
+}
+
+.profile .resume-section form .optional label {
+    line-height: 34px;
+    margin: 0;
+}
+
+.profile .resume-section form .optional p {
+    color: var(--optionalColor);
+}
+
+.profile .resume-section form .custom-file-input,
+.profile .resume-section form i {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 0;
+    left: 15px;
+    cursor: pointer;
+}
+.profile .resume-section form i {
+    border-right: 1px solid var(--borderColor);
+    text-align: center;
+    line-height: 60px;
+    font-size: 34px;
+}
