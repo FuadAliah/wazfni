@@ -104,7 +104,8 @@ input {
 
 input[type="text"],
 input[type="number"],
-input[type="email"] {
+input[type="email"],
+input[type="password"] {
     padding: 17px;
     height: unset;
     border-color: var(--borderColor);
@@ -772,7 +773,7 @@ form button {
     color: var(--mainGreen);
     font-size: 14px;
     font-family: var(--Bold);
-    margin-top: 6px;
+    margin-top: 11px;
 }
 
 .jobs .job-search {
@@ -1145,4 +1146,1182 @@ form button {
     text-align: center;
     line-height: 60px;
     font-size: 34px;
+}
+
+/* HOME */
+
+.home {
+    margin: 90px 0;
+}
+
+.home .title a {
+    color: var(--mainGreen);
+    font-size: 14px;
+    font-family: var(--Bold);
+    margin-top: 11px;
+}
+
+.home .jobs {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 20px;
+}
+
+.home .jobs .custom-card {
+    margin-bottom: 20px;
+}
+
+.home .jobs .custom-card .head-card {
+    height: 70px;
+    border-bottom: 1px solid var(--borderColor);
+}
+
+.home .jobs .custom-card .job-info {
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--borderColor);
+}
+
+.home .jobs .custom-card .job-info .job-title {
+    font-size: 16px;
+    font-family: var(--Bold);
+}
+
+.home .jobs .custom-card .job-info .employer {
+    font-size: 14px;
+    font-family: var(--Roman);
+}
+
+.home .jobs .custom-card .job-info .location i {
+    font-size: 1.3rem;
+    line-height: 27px;
+}
+
+.home .jobs .custom-card .job-info .location span {
+    font-size: 12px;
+    line-height: 27px;
+    vertical-align: bottom;
+}
+
+.home .jobs .custom-card .footer-card .card-links {
+    width: auto;
+}
+
+.home .custom-card .head-card .silver-ads,
+.home .custom-card .head-card .golden-ads,
+.home .custom-card .head-card .platinum-ads,
+.home .custom-card .head-card .bronze-ads {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 13px;
+    width: 120px;
+    height: 24px;
+}
+
+.home .custom-card .head-card .silver-ads img,
+.home .custom-card .head-card .golden-ads img,
+.home .custom-card .head-card .platinum-ads img,
+.home .custom-card .head-card .bronze-ads img {
+    position: absolute;
+    left: -20px;
+    top: -4px;
+}
+
+.home .custom-card .head-card .silver-ads .tag,
+.home .custom-card .head-card .golden-ads .tag,
+.home .custom-card .head-card .platinum-ads .tag,
+.home .custom-card .head-card .bronze-ads .tag {
+    min-width: 130px;
+    height: 24px;
+    position: absolute;
+    border-radius: 12px;
+}
+
+.home .custom-card .head-card .silver-ads .tag {
+    background: linear-gradient(90deg, rgba(43, 92, 169, 1) 0%, rgba(46, 157, 190, 1) 46%, rgba(48, 72, 157, 1) 80%);
+}
+
+.home .custom-card .head-card .golden-ads .tag {
+    background: linear-gradient(90deg, rgba(202, 98, 39, 1) 0%, rgba(237, 121, 35, 1) 56%, rgba(184, 76, 23, 1) 100%);
+}
+
+.home .custom-card .head-card .platinum-ads .tag {
+    background: linear-gradient(90deg, rgba(64, 64, 65, 1) 0%, rgba(128, 129, 132, 1) 46%, rgba(88, 89, 91, 1) 100%);
+}
+
+.home .custom-card .head-card .bronze-ads .tag {
+    background: linear-gradient(90deg, rgba(61, 82, 37, 1) 0%, rgba(58, 79, 35, 1) 46%, rgba(30, 41, 21, 1) 80%);
+}
+
+.home .view-more {
+    background: var(--mainGreen);
+    padding: 10px 52px;
+    font-family: var(--Bold);
+}
+
+.home .jobs-sections {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 20px;
+}
+
+.home .jobs-sections .job-card {
+    height: 120px;
+    margin-bottom: 20px;
+}
+
+.home .jobs-sections .job-card .job-number {
+    font-size: 30px;
+    color: var(--mainGreen);
+}
+
+.home .jobs-sections .job-card .job-name {
+    font-size: 16px;
+    color: var(--darkGray);
+    font-family: var(--Bold);
+}
+
+.home .articles-section .banner::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: var(--darkBlue);
+    opacity: 0.8;
+}
+
+.home .articles-section {
+    margin: 100px 0;
+}
+
+.home .articles-section .banner {
+    width: 32%;
+}
+
+.home .articles-section .banner img {
+    width: 100%;
+}
+
+.home .articles-section .banner h3 {
+    z-index: 2;
+    font-family: var(--Bold);
+    font-size: 34px;
+}
+
+.home .clients-section .logos {
+    width: 85%;
+}
+
+.home .clients-section i {
+    font-size: 60px;
+    display: flex;
+    width: 40px;
+    justify-content: center;
+}
+
+/* LOGIN */
+
+.login {
+    margin: 60px 0;
+}
+
+.login .popup {
+    height: 764px;
+}
+
+.login .popup .login-banner {
+    height: 100%;
+    width: 37%;
+}
+
+.login .popup .login-banner .intro-data {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+
+.login .popup .login-banner .bullets {
+    margin-top: 110px;
+    list-style-type: none;
+    padding: 0;
+    font-size: 20px;
+}
+
+.login .popup .login-banner .bullets li:before {
+    content: "-";
+    padding-left: 10px;
+    font-family: var(--Bold);
+}
+
+.login .popup .signing {
+    background: var(--lightBlue);
+    width: 63%;
+    height: 100%;
+    padding: 20px 60px;
+}
+
+.login .popup .signing ul {
+    padding: 0;
+    width: 60%;
+    border-bottom: 1px solid var(--mainGreen);
+}
+
+.login .popup .signing ul li {
+    width: 50%;
+    text-align: center;
+}
+
+.login .popup .signing ul li a {
+    color: var(--darkGray);
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.login .popup .signing ul li a.active {
+    background: transparent;
+    color: var(--darkGray);
+    font-size: 22px;
+    border-bottom: 4px solid var(--mainGreen);
+    border-radius: 0;
+    font-family: var(--Bold);
+}
+
+.login .popup .signing .signIn-content form button {
+    font-size: 20px;
+    font-family: var(--Bold);
+}
+
+.login .popup .signing form label {
+    margin: 0;
+}
+
+.login .popup .signing .signIn-content .forgot a {
+    color: var(--mainGreen);
+    text-decoration: underline;
+}
+
+.login .popup .signing .divider {
+    border-top: 1px solid var(--borderColor);
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.login .popup .signing .social-login a span {
+    font-family: var(--Bold);
+    padding: 5px 15px;
+}
+
+.login .popup .signing .social-login a {
+    height: 50px;
+    width: 29%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.login .popup .signing .social-login a i {
+    width: 30%;
+    height: 50px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 32px;
+}
+
+.login .popup .signing .social-login a span {
+    line-height: 40px;
+    width: 70%;
+    text-align: center;
+    font-size: 18px;
+}
+
+.login .popup .signing .social-login .linkedIn span {
+    background: #0074b1e6;
+}
+
+.login .popup .signing .social-login .linkedIn i {
+    background: #0074b1;
+    color: #fff;
+}
+
+.login .popup .signing .social-login .google span {
+    background: #517bbce6;
+}
+
+.login .popup .signing .social-login .google img {
+    background: #fff;
+    width: 50px;
+    height: 50px;
+    padding: 7px;
+}
+
+.login .popup .signing .social-login .facebook span {
+    background: #0074b1e6;
+}
+
+.login .popup .signing .social-login .facebook i {
+    background: #0074b1;
+    color: #fff;
+}
+
+.login .popup .signing .signUp-content .validate span {
+    font-family: var(--Roman);
+}
+/* SIGNUP NEXT */
+
+.signup-next {
+    margin: 60px 0;
+}
+
+.signup-next .popup {
+    height: 764px;
+}
+
+.signup-next .popup .login-banner {
+    height: 100%;
+    width: 37%;
+}
+
+.signup-next .popup .login-banner .intro-data {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+
+.signup-next .popup .login-banner .bullets {
+    margin-top: 110px;
+    list-style-type: none;
+    padding: 0;
+    font-size: 20px;
+}
+
+.signup-next .popup .login-banner .bullets li:before {
+    content: "-";
+    padding-left: 10px;
+    font-family: var(--Bold);
+}
+
+.signup-next .popup .signing {
+    background: var(--lightBlue);
+    width: 63%;
+    height: 100%;
+    padding: 20px 60px;
+}
+
+.signup-next .popup .signing ul {
+    padding: 0;
+    width: 60%;
+    border-bottom: 1px solid var(--mainGreen);
+}
+
+.signup-next .popup .signing ul li {
+    width: 50%;
+    text-align: center;
+}
+
+.signup-next .popup .signing ul li a {
+    color: var(--darkGray);
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.signup-next .popup .signing ul li a.active {
+    background: transparent;
+    color: var(--darkGray);
+    font-size: 22px;
+    border-bottom: 4px solid var(--mainGreen);
+    border-radius: 0;
+    font-family: var(--Bold);
+}
+
+.signup-next .popup .signing .signUp-content span {
+    font-size: 14px;
+}
+
+.signup-next .popup .signing .signUp-content a i {
+    line-height: 34px;
+    font-size: 16px;
+}
+
+.signup-next .popup .signing .signUp-content .backBtn {
+    margin: 30px 0;
+    color: var(--mainGreen);
+
+}
+
+.signup-next .popup .signing .signUp-content form button {
+    font-size: 20px;
+    font-family: var(--Bold);
+}
+
+.signup-next .popup .signing form label {
+    margin: 0;
+}
+
+.signup-next .popup .signing .signUp-content .forgot a {
+    color: var(--mainGreen);
+    text-decoration: underline;
+}
+
+.signup-next .popup .signing .divider {
+    border-top: 1px solid var(--borderColor);
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.signup-next .popup .signing .social-login a span {
+    font-family: var(--Bold);
+    padding: 5px 15px;
+}
+
+.signup-next .popup .signing .social-login a {
+    height: 50px;
+    width: 29%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.signup-next .popup .signing .social-login a i {
+    width: 30%;
+    height: 50px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 32px;
+}
+
+.signup-next .popup .signing .social-login a span {
+    line-height: 40px;
+    width: 70%;
+    text-align: center;
+    font-size: 18px;
+}
+
+.signup-next .popup .signing .social-login .linkedIn span {
+    background: #0074b1e6;
+}
+
+.signup-next .popup .signing .social-login .linkedIn i {
+    background: #0074b1;
+    color: #fff;
+}
+
+.signup-next .popup .signing .social-login .google span {
+    background: #517bbce6;
+}
+
+.signup-next .popup .signing .social-login .google img {
+    background: #fff;
+    width: 50px;
+    height: 50px;
+    padding: 7px;
+}
+
+.signup-next .popup .signing .social-login .facebook span {
+    background: #0074b1e6;
+}
+
+.signup-next .popup .signing .social-login .facebook i {
+    background: #0074b1;
+    color: #fff;
+}
+
+.signup-next .popup .signing .signUp-content .validate span {
+    font-family: var(--Roman);
+}
+
+/* FORGET */
+
+.forget {
+    margin: 60px 0;
+}
+
+.forget .popup {
+    height: 764px;
+}
+
+.forget .popup .login-banner {
+    height: 100%;
+    width: 37%;
+}
+
+.forget .popup .login-banner .intro-data {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+
+.forget .popup .login-banner .bullets {
+    margin-top: 110px;
+    list-style-type: none;
+    padding: 0;
+    font-size: 20px;
+}
+
+.forget .popup .login-banner .bullets li:before {
+    content: "-";
+    padding-left: 10px;
+    font-family: var(--Bold);
+}
+
+.forget .popup .signing {
+    background: var(--lightBlue);
+    width: 63%;
+    height: 100%;
+    padding: 20px 60px;
+}
+
+.forget .popup .signing ul {
+    padding: 0;
+    width: 60%;
+    border-bottom: 1px solid var(--mainGreen);
+}
+
+.forget .popup .signing ul li {
+    width: 50%;
+    text-align: center;
+}
+
+.forget .popup .signing ul li a {
+    color: var(--darkGray);
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.forget .popup .signing ul li a.active {
+    background: transparent;
+    color: var(--darkGray);
+    font-size: 22px;
+    border-bottom: 4px solid var(--mainGreen);
+    border-radius: 0;
+    font-family: var(--Bold);
+}
+
+.forget .popup .signing .forget-content a {
+    color: var(--mainGreen);
+}
+
+.forget .popup .signing .forget-content p {
+    font-size: 20px;
+    font-family: var(--Bold);
+}
+
+.forget .popup .signing .forget-content a i {
+    line-height: 34px;
+    font-size: 16px;
+}
+
+.forget .popup .signing .forget-content .backBtn {
+    margin: 30px 0;
+    color: var(--mainGreen);
+}
+
+.forget .popup .signing .forget-content form button {
+    font-size: 20px;
+    font-family: var(--Bold);
+}
+
+.forget .popup .signing .forget-content form p {
+    font-size: 16px;
+    font-family: var(--Bold);
+}
+
+.forget .popup .signing form label {
+    margin: 0;
+}
+
+.forget .popup .signing .forget-content a.forget {
+    color: var(--mainGreen);
+    text-decoration: underline;
+}
+
+.forget .popup .signing .divider {
+    border-top: 1px solid var(--borderColor);
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.forget .popup .signing .social-login a span {
+    font-family: var(--Bold);
+    padding: 5px 15px;
+}
+
+.forget .popup .signing .social-login a {
+    height: 50px;
+    width: 29%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.forget .popup .signing .social-login a i {
+    width: 30%;
+    height: 50px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 32px;
+}
+
+.forget .popup .signing .social-login a span {
+    line-height: 40px;
+    width: 70%;
+    text-align: center;
+    font-size: 18px;
+}
+
+.forget .popup .signing .social-login .linkedIn span {
+    background: #0074b1e6;
+}
+
+.forget .popup .signing .social-login .linkedIn i {
+    background: #0074b1;
+    color: #fff;
+}
+
+.forget .popup .signing .social-login .google span {
+    background: #517bbce6;
+}
+
+.forget .popup .signing .social-login .google img {
+    background: #fff;
+    width: 50px;
+    height: 50px;
+    padding: 7px;
+}
+
+.forget .popup .signing .social-login .facebook span {
+    background: #0074b1e6;
+}
+
+.forget .popup .signing .social-login .facebook i {
+    background: #0074b1;
+    color: #fff;
+}
+
+/* VALIDATE CODE */
+
+.validate-code {
+    margin: 60px 0;
+}
+
+.validate-code .popup {
+    height: 764px;
+}
+
+.validate-code .popup .login-banner {
+    height: 100%;
+    width: 37%;
+}
+
+.validate-code .popup .login-banner .intro-data {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+
+.validate-code .popup .login-banner .bullets {
+    margin-top: 110px;
+    list-style-type: none;
+    padding: 0;
+    font-size: 20px;
+}
+
+.validate-code .popup .login-banner .bullets li:before {
+    content: "-";
+    padding-left: 10px;
+    font-family: var(--Bold);
+}
+
+.validate-code .popup .signing {
+    background: var(--lightBlue);
+    width: 63%;
+    height: 100%;
+    padding: 20px 60px;
+}
+
+.validate-code .popup .signing ul {
+    padding: 0;
+    width: 60%;
+    border-bottom: 1px solid var(--mainGreen);
+}
+
+.validate-code .popup .signing ul li {
+    width: 50%;
+    text-align: center;
+}
+
+.validate-code .popup .signing ul li a {
+    color: var(--darkGray);
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.validate-code .popup .signing ul li a.active {
+    background: transparent;
+    color: var(--darkGray);
+    font-size: 22px;
+    border-bottom: 4px solid var(--mainGreen);
+    border-radius: 0;
+    font-family: var(--Bold);
+}
+
+
+.validate-code .popup .signing .forget-content span {
+    font-size: 14px;
+}
+
+.validate-code .popup .signing .forget-content .validate-phone {
+    direction: ltr;
+}
+
+.validate-code .popup .signing .forget-content p {
+    font-size: 20px;
+    font-family: var(--Bold);
+}
+
+.validate-code .popup .signing .forget-content a i {
+    line-height: 34px;
+    font-size: 16px;
+}
+
+.validate-code .popup .signing .forget-content .backBtn {
+    margin: 30px 0;
+    color: var(--mainGreen);
+}
+
+.validate-code .popup .signing .forget-content form button {
+    font-size: 20px;
+    font-family: var(--Bold);
+}
+
+.validate-code .popup .signing .forget-content form .resend a {
+    font-size: 16px;
+    color: var(--mainGreen);
+    text-decoration: underline;
+}
+
+.validate-code .popup .signing form label {
+    margin: 0;
+}
+
+.validate-code .popup .signing .forget-content a.forget {
+    color: var(--mainGreen);
+    text-decoration: underline;
+}
+
+.validate-code .popup .signing .divider {
+    border-top: 1px solid var(--borderColor);
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.validate-code .popup .signing .social-login a span {
+    font-family: var(--Bold);
+    padding: 5px 15px;
+}
+
+.validate-code .popup .signing .social-login a {
+    height: 50px;
+    width: 29%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.validate-code .popup .signing .social-login a i {
+    width: 30%;
+    height: 50px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 32px;
+}
+
+.validate-code .popup .signing .social-login a span {
+    line-height: 40px;
+    width: 70%;
+    text-align: center;
+    font-size: 18px;
+}
+
+.validate-code .popup .signing .social-login .linkedIn span {
+    background: #0074b1e6;
+}
+
+.validate-code .popup .signing .social-login .linkedIn i {
+    background: #0074b1;
+    color: #fff;
+}
+
+.validate-code .popup .signing .social-login .google span {
+    background: #517bbce6;
+}
+
+.validate-code .popup .signing .social-login .google img {
+    background: #fff;
+    width: 50px;
+    height: 50px;
+    padding: 7px;
+}
+
+.validate-code .popup .signing .social-login .facebook span {
+    background: #0074b1e6;
+}
+
+.validate-code .popup .signing .social-login .facebook i {
+    background: #0074b1;
+    color: #fff;
+}
+/* VALIDATE CODE */
+
+.recovery {
+    margin: 60px 0;
+}
+
+.recovery .popup {
+    height: 764px;
+}
+
+.recovery .popup .login-banner {
+    height: 100%;
+    width: 37%;
+}
+
+.recovery .popup .login-banner .intro-data {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+
+.recovery .popup .login-banner .bullets {
+    margin-top: 110px;
+    list-style-type: none;
+    padding: 0;
+    font-size: 20px;
+}
+
+.recovery .popup .login-banner .bullets li:before {
+    content: "-";
+    padding-left: 10px;
+    font-family: var(--Bold);
+}
+
+.recovery .popup .signing {
+    background: var(--lightBlue);
+    width: 63%;
+    height: 100%;
+    padding: 20px 60px;
+}
+
+.recovery .popup .signing ul {
+    padding: 0;
+    width: 60%;
+    border-bottom: 1px solid var(--mainGreen);
+}
+
+.recovery .popup .signing ul li {
+    width: 50%;
+    text-align: center;
+}
+
+.recovery .popup .signing ul li a {
+    color: var(--darkGray);
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.recovery .popup .signing ul li a.active {
+    background: transparent;
+    color: var(--darkGray);
+    font-size: 22px;
+    border-bottom: 4px solid var(--mainGreen);
+    border-radius: 0;
+    font-family: var(--Bold);
+}
+
+
+.recovery .popup .signing .forget-content span {
+    font-size: 14px;
+}
+
+.recovery .popup .signing .forget-content .validate-phone {
+    direction: ltr;
+}
+
+.recovery .popup .signing .forget-content p {
+    font-size: 20px;
+    font-family: var(--Bold);
+}
+
+.recovery .popup .signing .forget-content a i {
+    line-height: 34px;
+    font-size: 16px;
+}
+
+.recovery .popup .signing .forget-content .backBtn {
+    margin: 30px 0;
+    color: var(--mainGreen);
+}
+
+.recovery .popup .signing .forget-content form button {
+    font-size: 20px;
+    font-family: var(--Bold);
+}
+
+.recovery .popup .signing .forget-content form .resend a {
+    font-size: 16px;
+    color: var(--mainGreen);
+    text-decoration: underline;
+}
+
+.recovery .popup .signing form label {
+    margin: 0;
+}
+
+.recovery .popup .signing .forget-content a.forget {
+    color: var(--mainGreen);
+    text-decoration: underline;
+}
+
+.recovery .popup .signing .divider {
+    border-top: 1px solid var(--borderColor);
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.recovery .popup .signing .social-login a span {
+    font-family: var(--Bold);
+    padding: 5px 15px;
+}
+
+.recovery .popup .signing .social-login a {
+    height: 50px;
+    width: 29%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.recovery .popup .signing .social-login a i {
+    width: 30%;
+    height: 50px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 32px;
+}
+
+.recovery .popup .signing .social-login a span {
+    line-height: 40px;
+    width: 70%;
+    text-align: center;
+    font-size: 18px;
+}
+
+.recovery .popup .signing .social-login .linkedIn span {
+    background: #0074b1e6;
+}
+
+.recovery .popup .signing .social-login .linkedIn i {
+    background: #0074b1;
+    color: #fff;
+}
+
+.recovery .popup .signing .social-login .google span {
+    background: #517bbce6;
+}
+
+.recovery .popup .signing .social-login .google img {
+    background: #fff;
+    width: 50px;
+    height: 50px;
+    padding: 7px;
+}
+
+.recovery .popup .signing .social-login .facebook span {
+    background: #0074b1e6;
+}
+
+.recovery .popup .signing .social-login .facebook i {
+    background: #0074b1;
+    color: #fff;
+}
+
+/* RE ASSIGN */
+
+.reAssign {
+    margin: 60px 0;
+}
+
+.reAssign .popup {
+    height: 764px;
+}
+
+.reAssign .popup .login-banner {
+    height: 100%;
+    width: 37%;
+}
+
+.reAssign .popup .login-banner .intro-data {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+
+.reAssign .popup .login-banner .bullets {
+    margin-top: 110px;
+    list-style-type: none;
+    padding: 0;
+    font-size: 20px;
+}
+
+.reAssign .popup .login-banner .bullets li:before {
+    content: "-";
+    padding-left: 10px;
+    font-family: var(--Bold);
+}
+
+.reAssign .popup .signing {
+    background: var(--lightBlue);
+    width: 63%;
+    height: 100%;
+    padding: 20px 60px;
+}
+
+.reAssign .popup .signing ul {
+    padding: 0;
+    width: 60%;
+    border-bottom: 1px solid var(--mainGreen);
+}
+
+.reAssign .popup .signing ul li {
+    width: 50%;
+    text-align: center;
+}
+
+.reAssign .popup .signing ul li a {
+    color: var(--darkGray);
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.reAssign .popup .signing ul li a.active {
+    background: transparent;
+    color: var(--darkGray);
+    font-size: 22px;
+    border-bottom: 4px solid var(--mainGreen);
+    border-radius: 0;
+    font-family: var(--Bold);
+}
+
+
+.reAssign .popup .signing .forget-content span {
+    font-size: 14px;
+}
+
+.reAssign .popup .signing .forget-content p {
+    font-size: 20px;
+    font-family: var(--Bold);
+}
+
+.reAssign .popup .signing .forget-content a i {
+    line-height: 34px;
+    font-size: 16px;
+}
+
+.reAssign .popup .signing .forget-content .backBtn {
+    margin: 30px 0;
+    color: var(--mainGreen);
+
+}
+
+.reAssign .popup .signing .forget-content form button {
+    font-size: 20px;
+    font-family: var(--Bold);
+}
+
+.reAssign .popup .signing .forget-content form .resend a {
+    font-size: 16px;
+    color: var(--mainGreen);
+    text-decoration: underline;
+}
+
+.reAssign .popup .signing form label {
+    margin: 0;
+}
+
+.reAssign .popup .signing .forget-content a.forget {
+    color: var(--mainGreen);
+    text-decoration: underline;
+}
+
+.reAssign .popup .signing .divider {
+    border-top: 1px solid var(--borderColor);
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.reAssign .popup .signing .social-login a span {
+    font-family: var(--Bold);
+    padding: 5px 15px;
+}
+
+.reAssign .popup .signing .social-login a {
+    height: 50px;
+    width: 29%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.reAssign .popup .signing .social-login a i {
+    width: 30%;
+    height: 50px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 32px;
+}
+
+.reAssign .popup .signing .social-login a span {
+    line-height: 40px;
+    width: 70%;
+    text-align: center;
+    font-size: 18px;
+}
+
+.reAssign .popup .signing .social-login .linkedIn span {
+    background: #0074b1e6;
+}
+
+.reAssign .popup .signing .social-login .linkedIn i {
+    background: #0074b1;
+    color: #fff;
+}
+
+.reAssign .popup .signing .social-login .google span {
+    background: #517bbce6;
+}
+
+.reAssign .popup .signing .social-login .google img {
+    background: #fff;
+    width: 50px;
+    height: 50px;
+    padding: 7px;
+}
+
+.reAssign .popup .signing .social-login .facebook span {
+    background: #0074b1e6;
+}
+
+.reAssign .popup .signing .social-login .facebook i {
+    background: #0074b1;
+    color: #fff;
 }
